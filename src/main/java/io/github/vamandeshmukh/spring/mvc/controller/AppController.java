@@ -40,7 +40,7 @@ public class AppController {
 //			return "welcome";
 //		return "login";
 //	}
-
+ 
 	@RequestMapping("/welcome")
 	public String welcome(Employee employee, Model model) {
 		System.out.println("welcome");
